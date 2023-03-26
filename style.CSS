@@ -18,5 +18,51 @@
     top: 0;
     left: 0;
 }
+.active{
+    color: #35AFBF;  
+    border-bottom: 1px solid #35AFBF;
+}
 
 /* web site templates start */
+nav{
+    position: fixed;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    margin: auto;
+    background-attachment: fixed;
+    justify-content: space-between;
+
+}
+.nav_logo{
+    display: flex;
+}
+.nav-logo-img{
+     margin-top: 41px;  
+}
+.nav_logo h3{
+    margin-top: 41px;
+    padding-left: 5px;
+    font-family: 'work-sans',sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.nav_menu{
+    display: flex;
+    margin-top: 40px;
+
+}
+.nav-meni_item{
+   padding: 6px 10px;
+   margin: 0 15px;
+   cursor: pointer;
+   
+
+}
+.nav_meni-link{
+    text-decoration: none;
+    color: #969999;
+}
