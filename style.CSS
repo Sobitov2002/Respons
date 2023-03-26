@@ -18,10 +18,7 @@
     top: 0;
     left: 0;
 }
-.active{
-    color: #35AFBF;  
-    border-bottom: 1px solid #35AFBF;
-}
+
 
 /* web site templates start */
 nav{
@@ -59,10 +56,35 @@ nav{
    padding: 6px 10px;
    margin: 0 15px;
    cursor: pointer;
-   
+   border-bottom: 2px solid #35AFBF;
 
 }
 .nav_meni-link{
     text-decoration: none;
     color: #969999;
+    font-family: 'work-sans',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.active{
+    color: #35AFBF;  
+}
+
+
+.signUpBtn{
+    width: 120px;
+    height: 49px;
+    background-color: #35AFBF;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.signUpBtn button{
+    border: none;
+    background-color: #35AFBF;
+    color: white;
+    font-family: 'work-sans',sans-serif;
+    cursor: pointer;
 }
