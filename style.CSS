@@ -21,6 +21,9 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 121;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 0 8px 6px -6px rgb(154, 142, 142);
 }
 .navigation{
     display: flex;
