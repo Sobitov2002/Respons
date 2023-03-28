@@ -69,7 +69,7 @@ nav{
 
 .hamburger{
     margin-top: 45px;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 100px;
     cursor: pointer;
     display: none;
@@ -130,7 +130,7 @@ nav{
   }
   @media screen and (max-width: 900px) {
     .container{
-        width: 800px;
+        width: 100%;
         margin: auto;
         padding: 0 5rem;
     }
@@ -161,4 +161,27 @@ nav{
         position: absolute;
         left: 250px;
     } 
+    .signUpBtn{
+        width: 90px;
+        height: 39px;
+        background-color: #35AFBF;
+        display: flex;
+        justify-content: center;
+        border-radius: 6px;
+        margin-top: 35px;
+        cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 600px) {
+   
+    .signUpBtn{
+        position: absolute;
+        top: 90vh;
+        left: 20px;
+        width: 90%;
+        margin: auto;
+        
+    }
+  
+   
   }
