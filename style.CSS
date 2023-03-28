@@ -68,7 +68,7 @@ nav{
 }
 
 .hamburger{
-    margin-top: 40px;
+    margin-top: 45px;
     font-size: 25px;
     margin-left: 100px;
     cursor: pointer;
@@ -142,13 +142,23 @@ nav{
         display: block;
         padding: 10px;
         display: none;
+        
     }
     .nav-meni_item{
         padding: 10px;
         text-align: right;
         
     }
+    .nav_meni-link{
+        font-size: 25px;
+    }
+  
     .hamburger{
         display: block;
+       
     }
+    .signUpBtn{
+        position: absolute;
+        left: 250px;
+    } 
   }
