@@ -75,15 +75,17 @@ nav{
     display: none;
 }
 
-.signUpBtn{
+.button{
+    background-color: #35AFBF;
     width: 120px;
     height: 49px;
-    background-color: #35AFBF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.signUpBtn{
     display: flex;
     justify-content: center;
-    border-radius: 6px;
-    margin-top: 35px;
-    cursor: pointer;
+    margin-top: 35px; 
 }
 .signUpBtn button{
     border: none;
@@ -106,11 +108,47 @@ nav{
 }
 .main_header{
     display: flex;
+    padding-top: 250px;
+    justify-content: space-between;
 }
 
 .header_item{
-    padding-top: 166px ;
-    width: 50%;
+    width: 40%; 
+    position: relative;
+}
+span{
+    color: #35AFBF;
+}
+.header_item_title{
+    font-family: 'work-sans' ,sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 563px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.header_item_paragraf{
+    margin-top: 20px;
+    width: 523px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+}
+.button_header{
+    margin-top: 30px;
+}
+.button_header button{
+    border: none;
+    background-color: #35AFBF;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+
+}
+
+.header_item img{
+    position: absolute;
+    left: 0;
 }
 
 
@@ -127,6 +165,36 @@ nav{
     .nav-meni_item{
         padding: 3px 10px;
      }
+     .main_header{
+         display: flex;
+         padding-top: 350px;
+        justify-content: space-between;
+    }
+    .header_item{
+    width: 30%; 
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 470px;
+    }
+    .header_item_title{
+        font-size: 35px;
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+    
+     .main_header{
+         display: flex;
+         padding-top: 350px;
+        justify-content: space-between;
+    }
+    .header_item{
+    width: 45%; 
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 470px;
+    }
+
   }
   @media screen and (max-width: 1050px) {
     .container{
@@ -146,7 +214,35 @@ nav{
         font-size: 14.5px;
         font-weight: 400;
     }
+     .main_header{
+         display: flex;
+         padding-top: 320px;
+        justify-content: space-between;
+    }
+     .header_item{
+    width: 50%; 
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 370px;
+    }
+    .header_item_title{
+        font-size: 25px;
+    }
+
+    
   }
+  @media screen and (max-width:950px){
+    .header_item{
+        width: 40%;
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 320px;
+    
+  }
+  .header_img{
+    width: 370px;
+  }
+}
   @media screen and (max-width: 900px) {
     .container{
         width: 100%;
@@ -190,6 +286,22 @@ nav{
         margin-top: 35px;
         cursor: pointer;
     }
+     .main_header{
+         display: flex;
+         padding-top: 320px;
+
+    }
+    .header_item{
+        width: 90%;
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 100%;
+  }
+    
+
+    .img{
+        display: none;
+    }
   }
   @media screen and (max-width: 600px) {
    
@@ -201,6 +313,25 @@ nav{
         margin: auto;
         
     }
+    .header_item{
+        width: 90%;
+    }
+    .header_item_paragraf, .header_item_title{
+        width: 100%;
+  } 
+  .header_item{
+    width: 100%;
+}
+.header_item_paragraf, .header_item_title{
+    width: 100%;
+}
+     .header_item_paragraf p{
+        font-size: 17px;
+     }
+     
+     .header_item_title h1{
+        font-size: 25px;
+  }
   
    
   }
