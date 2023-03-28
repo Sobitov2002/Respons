@@ -26,6 +26,7 @@ nav{
     margin: auto;
     background-attachment: fixed;
     justify-content: space-between;
+    position: relative;
 
 }
 .nav_logo{
@@ -66,6 +67,13 @@ nav{
     color: #35AFBF;  
 }
 
+.hamburger{
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+    display: none;
+}
 
 .signUpBtn{
     width: 120px;
@@ -91,15 +99,56 @@ nav{
 
 /* Responsive media */
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 1100px;
+        margin: auto;
+        padding: 0 5rem;
+    }
+    .nav-meni_item{
+        padding: 3px 10px;
+     }
+  }
+  @media screen and (max-width: 1050px) {
     .container{
         width: 900px;
         margin: auto;
         padding: 0 5rem;
     }
     .nav-meni_item{
-        padding: 6px 5px;
-       
-     
+        padding: 0px 0px;
+        margin: 0 10px;
+        border-bottom: 1px solid #35AFBF;
      }
+     .nav_meni-link{
+        text-decoration: none;
+        color: #969999;
+        font-family: 'work-sans',sans-serif;
+        font-size: 14.5px;
+        font-weight: 400;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .container{
+        width: 800px;
+        margin: auto;
+        padding: 0 5rem;
+    }
+    .nav_menu{
+        position: absolute; 
+        top: 50px;
+        right: 0;
+        width: 220px;
+        display: block;
+        padding: 10px;
+        display: none;
+    }
+    .nav-meni_item{
+        padding: 10px;
+        text-align: right;
+        
+    }
+    .hamburger{
+        display: block;
+    }
   }
