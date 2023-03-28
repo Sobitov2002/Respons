@@ -63,7 +63,7 @@ nav{
     font-weight: 400;
 }
 .active{
-    color: tomato;  
+    color: #35AFBF;  
 }
 
 
@@ -84,3 +84,22 @@ nav{
     font-family: 'work-sans',sans-serif;
     cursor: pointer;
 }
+
+
+
+
+
+/* Responsive media */
+
+@media screen and (min-width: 1300px) {
+    .container{
+        width: 900px;
+        margin: auto;
+        padding: 0 5rem;
+    }
+    .nav-meni_item{
+        padding: 6px 5px;
+       
+     
+     }
+  }
