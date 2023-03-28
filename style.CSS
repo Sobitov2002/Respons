@@ -94,6 +94,25 @@ nav{
 }
 
 
+/* main header */
+.header{
+    width: 100%;
+    height: 800px;
+    background-image: url('./img/Background\ \(2\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.main_header{
+    display: flex;
+}
+
+.header_item{
+    padding-top: 166px ;
+    width: 50%;
+}
+
 
 
 
