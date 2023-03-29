@@ -437,3 +437,8 @@ span{
         width: 350px;
     }
   }
+  @media screen and (max-width: 400px){
+    .modal{
+        width: 300px;
+    }
+  }
