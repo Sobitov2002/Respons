@@ -20,6 +20,28 @@ hamburgerMenu.addEventListener('click',()=>{
 })
 
 
+
+
+let sigUpBtn = document.querySelector('.signUpBtn');
+let modal = document.querySelector('.modal');
+let blur = document.querySelector('.blur');
+let sigUp = true;
+
+sigUpBtn.addEventListener('click',(e) =>{
+    if(sigUp === true){
+        modal.style.display = 'block';
+        blur.style.display = 'block';
+        sigUp = false;
+    }
+    else if(sigUp == false){
+        modal.style.display = 'none';
+        blur.style.display = 'none';
+        sigUp = true;
+    }
+})
+
+
+
 // let header = document.querySelector('nav');
 // window.addEventListener('scroll',(e)=>{
     
