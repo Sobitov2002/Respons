@@ -39,6 +39,10 @@ sigUpBtn.addEventListener('click',(e) =>{
         sigUp = true;
     }
 })
+blur.addEventListener('click',() =>{
+    modal.style.display = 'none';
+    blur.style.display = 'none';
+})
 
 
 
