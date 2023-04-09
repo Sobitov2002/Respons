@@ -600,7 +600,7 @@ span{
         display: block;
         padding: 10px;
         display: none;
-        background-color: white;
+        background-color: whitesmoke;
         
        
         
@@ -688,6 +688,10 @@ span{
 .services_items{
     margin-top: 20px;
 }
+    .about_img{
+        width: 330px;
+        margin: auto;
+    }
   }
   @media screen and (max-width: 500px){
     .modal{
@@ -698,6 +702,15 @@ span{
     }
     .services_items{
         margin-top: 20px;
+    }
+    .about_item{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .about_img{
+        display: none;
     }
   }
   @media screen and (max-width: 400px){
