@@ -353,6 +353,15 @@ span{
     font-weight: 700;
     line-height: 45px;
 }
+.about_item > button{
+    width: 149px;
+    height: 49px;
+    border: 1px solid #35AFBF;
+    margin-top: 35px;
+    font-family: 'Work sans',sans-serif;
+    cursor: pointer;
+    color: #35AFBF;
+}
 .about_item h6{
     font-size: 23px;
     color: #707273;
@@ -692,6 +701,9 @@ span{
         width: 330px;
         margin: auto;
     }
+    .about_item > button{
+        margin-top: 25px;
+     }
   }
   @media screen and (max-width: 500px){
     .modal{
@@ -712,6 +724,9 @@ span{
     .about_img{
         display: none;
     }
+    .about_item > button{
+        margin-top: 20px;
+     }
   }
   @media screen and (max-width: 400px){
     .modal{
@@ -732,5 +747,8 @@ span{
     }
     .about_img{
         display: none;
+    }
+    .about_item > button{
+       margin-top: 10px;
     }
   }
