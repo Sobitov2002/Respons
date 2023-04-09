@@ -704,6 +704,10 @@ span{
     .about_item > button{
         margin-top: 25px;
      }
+     .about_items{
+        width: 400px;
+        margin: auto;
+    }
   }
   @media screen and (max-width: 500px){
     .modal{
@@ -714,6 +718,10 @@ span{
     }
     .services_items{
         margin-top: 20px;
+    }
+    .about_items{
+        width: 400px;
+        margin: auto;
     }
     .about_item{
         position: absolute;
@@ -750,5 +758,9 @@ span{
     }
     .about_item > button{
        margin-top: 10px;
+    }
+    .about_items{
+        width: 300px;
+        margin: auto;
     }
   }
